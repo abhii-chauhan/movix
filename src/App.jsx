@@ -50,7 +50,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/movix" >
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
